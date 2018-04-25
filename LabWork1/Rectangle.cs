@@ -4,7 +4,8 @@ namespace LabWork1
 {
     class Rectangle:Figure
     {
-        public int x1, y1, width, height;
+        public int width { get; set; }
+        public int height { get; set; } 
         public Rectangle(Pen pen, int x1, int y1, int width, int height)
         {
             this.x1 = x1;

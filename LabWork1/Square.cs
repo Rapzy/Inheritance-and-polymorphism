@@ -4,7 +4,7 @@ namespace LabWork1
 {
     class Square:Figure
     {
-        public int x1, y1, width;
+        public int width { get; set; }
         public Square(Pen pen, int x1, int y1, int width)
         {
             this.x1 = x1;
